@@ -1,0 +1,23 @@
+.chat {
+    width: 600px;
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px lightgrey;
+    margin-bottom: 10px;
+}
+
+.send, .receive {
+    margin: 10px;
+    background-color: lightgreen;
+    padding: 3px 10px;
+    border-radius: 5px;
+    display: block;
+    max-width: 400px;
+    width: fit-content;
+}
+
+.send {
+    background-color: lightblue;
+    margin-left: auto;
+}
